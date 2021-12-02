@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+hgroup {
+
+}
+
+h1 {
+  color: #0047BA;
+}
+
+h2 {
+  color: #0047BA;
+}
+
+p {
+  color: #0047BA;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9BDFEA;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
