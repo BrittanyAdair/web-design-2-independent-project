@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.2;
-
 }
 
 *, *::before, *::after {
@@ -26,7 +25,7 @@ h1 {
   margin-bottom: 0;
   font-size: 5em;
   font-weight: normal;
-  color: #0047BA;
+  color: #0047ba;
 }
 
 h2 {
@@ -36,7 +35,7 @@ h2 {
   margin-bottom: 1rem;
   font-size: 2em;
   font-weight: normal;
-  color: #0047BA;
+  color: #0047ba;
 }
 
 p {
@@ -44,7 +43,7 @@ p {
   margin: 5rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #0047BA;
+  color: #0047ba;
 }
 
 ul {
@@ -52,7 +51,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #9BDFEA;
+  background-color: #9bdfea;
 }
 
 li {
@@ -89,13 +88,20 @@ img {
 
 #page3
 
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 p {
   padding: 0;
   margin: 0;
 }
 
 .acropolis {
-  width: 30%;
+  width: 40%;
 }
 
 .parthenon {
@@ -103,7 +109,7 @@ p {
 }
 
 .temple-of-apollo {
-  width: 30%;
+  width: 40%;
 }
 
 .santorini {
