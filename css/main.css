@@ -112,23 +112,24 @@ img {
 }
 
 .previous {
-  width: 40%;
+  width: 10%;
 }
 
 .next {
-  width: 40%;
+  width: 10%;
 }
 
 small {
   line-height: 1.3;
 }
 
-.row {
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px 10px;
   margin: 0;
+  padding: 0;
 }
 
 .skip-links {
