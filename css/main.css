@@ -87,7 +87,7 @@ li a {
   height: 1px;
   content: ".";
   color: transparent;
-  background: #0047ba;
+  background-color: #0047ba;
   visibility: visible;
   opacity: 0;
   z-index: -1;
