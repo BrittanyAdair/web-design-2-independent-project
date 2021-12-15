@@ -49,8 +49,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00bed6;
   text-align: center;
+  background-color: #9bdfea;
 }
 
 li {
@@ -59,7 +59,7 @@ li {
 
 li a {
   display: block;
-  color: #fff;
+  color: #0047ba;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,7 +75,7 @@ li a {
   color: #fff;
 }
 
-#nav ul li a:after {
+#nav ul li a::after {
   display: block;
   position: absolute;
   top: 0;
@@ -93,7 +93,7 @@ li a {
   z-index: -1;
 }
 
-#nav ul li a:hover:after {
+#nav ul li a:hover::after {
   opacity: 1;
   visibility: visible;
   height: 100%;
@@ -112,11 +112,11 @@ img {
 }
 
 .previous {
-  width: 25%;
+  width: 40%;
 }
 
 .next {
-  width: 25%;
+  width: 40%;
 }
 
 small {
